@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="main_menu">
+        <item>Home</item>
+        <!-- <item>Sign in</item> -->
+        <item>My favorites</item>
+        <!-- <item>Logout</item> -->
+
+        <item>Restaurants</item>
+        <item>Hotels</item>
+        <item>Attractions</item>
+        <item>Bar/Pub/Coffee</item>
+        <item>Shopping</item>
+        <item>Tour</item>
+        <item>Updates</item>
+        <item>Preferences</item>
+    </string-array>
+
+    <string name="prev">Previous_page</string>
+    <string name="next">Next Page</string>
+
+</resources>

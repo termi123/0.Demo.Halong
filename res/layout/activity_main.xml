@@ -1,0 +1,137 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/view_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- android:visibility="gone"> -->
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/ad_frame"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@android:color/transparent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:orientation="horizontal" >
+
+                <view
+                    android:id="@+id/btnres"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    class="com.example.demo.component.ActionImageButton"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnres"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_res" />
+
+                <view
+                    android:id="@+id/btnhotel"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    class="com.example.demo.component.ActionImageButton"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnhotel"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_hotel" />
+
+                <view
+                    android:id="@+id/btnatt"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    class="com.example.demo.component.ActionImageButton"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnatt"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_att" />
+
+                <view
+                    android:id="@+id/btnnight"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    class="com.example.demo.component.ActionImageButton"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnnight"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_night" />
+
+                <view
+                    android:id="@+id/btnshop"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    class="com.example.demo.component.ActionImageButton"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnshop"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_shop" />
+
+                <view
+                    android:id="@+id/btnticket"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    class="com.example.demo.component.ActionImageButton"
+                    android:background="@android:color/transparent"
+                    android:onClick="btnticket"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/icon_ticket" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/comments_frame"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/menu_frame"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+    <FrameLayout
+        android:id="@+id/bottombutton"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:choiceMode="singleChoice"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp" />
+
+</android.support.v4.widget.DrawerLayout>
